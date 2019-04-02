@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Languages"
+    targetNamespace="http://tempuri.org/Languages.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/Languages.xsd"
+    xmlns:mstns="http://tempuri.org/Languages.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="Languages" type="LanguagesType"></xs:element>
+
+  <xs:complexType name="LanguagesType">
+    <xs:sequence>
+      <xs:element name="Language" type="xs:string" maxOccurs="unbounded" minOccurs="1"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
